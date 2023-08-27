@@ -1,0 +1,29 @@
+como tornar um projeto em Python, em um projeto executavel em windows, IOS, linux.
+
+1)_Primeiro lugar, estando neste local do desktop, no caso em uma pasta "venv" executei este comando para ativar o 
+ambiente virtual o "venv". Logo abaixo você encontra o comando em aspas duplas que ativa o "venv", logo abaixo o comando
+duplicado original sem as aspas que eu usei para marcar o comando que ativa o "venv".
+
+C:\Users\Sony Vaio\PycharmProjects\datascience\venv\Scripts>"venv_executable\Scripts\activate"
+C:\Users\Sony Vaio\PycharmProjects\datascience\venv\Scripts>venv_executable\Scripts\activate
+
+2)_Aqui logo abaix com o ambiente virtual ativado"venv", você nota destacado dentro de parenteses o (venv_executable), em
+uma linha pura original sem alterações.
+
+(venv_executable) C:\Users\Sony Vaio\PycharmProjects\datascience\venv\Scripts>
+
+3)_Agora vamos instalar pelo PROMPT SHELL DO WINDOWS a biblioteca pyinstaller do Python 3.11, segue abaixo.
+Sendo que a primeira linha é a original sem alterações, e a linha abaixo foi acrescentado aspas duplas para destacar
+o comando para instalar a biblioteca.
+
+(venv_executable) C:\Users\Sony Vaio\PycharmProjects\datascience\venv\Scripts>pip install pyinstaller
+Collecting pyinstaller
+(venv_executable) C:\Users\Sony Vaio\PycharmProjects\datascience\venv\Scripts>"pip install pyinstaller"
+Collecting pyinstaller
+
+4)_Por fim o comando que vai transformar o scripty em Python, em um arquivo executavel no windows, linux e IOS.
+Abaixo você vê a mesma linha só que com as aspas duplas destacando o comando que trasnforma o projeto em EX.'executavel'
+Se o executavel estiver com erros, faça outro.
+
+(venv_executable) C:\Users\Sony Vaio\PycharmProjects\datascience\venv\Scripts>pyinstaller --onefile test.py
+(venv_executable) C:\Users\Sony Vaio\PycharmProjects\datascience\venv\Scripts>"pyinstaller --onefile test.py"
