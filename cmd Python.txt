@@ -2,7 +2,7 @@ como tornar um projeto em Python, em um projeto executavel em windows, IOS, linu
 
 1)_Primeiro lugar, estando neste local do desktop, no caso em uma pasta "venv" executei este comando para ativar o 
 ambiente virtual o "venv". Logo abaixo você encontra o comando em aspas duplas que ativa o "venv", logo abaixo o comando
-duplicado original sem as aspas que eu usei para marcar o comando que ativa o "venv".
+duplicado original sem as aspas que eu usei para marcar o comando que ativa o "venv". Mude o caminho da pasta.
 
 C:\Users\Sony Vaio\PycharmProjects\datascience\venv\Scripts>"venv_executable\Scripts\activate"
 C:\Users\Sony Vaio\PycharmProjects\datascience\venv\Scripts>venv_executable\Scripts\activate
